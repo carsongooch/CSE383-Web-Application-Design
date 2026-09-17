@@ -8,4 +8,4 @@ Links:
 [Analog Clock](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/clock.html)
 
 Week 4
-[Week 4](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4a.html)
+[HTML Webpage](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4a.html)
