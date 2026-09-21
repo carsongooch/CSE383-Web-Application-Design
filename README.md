@@ -14,4 +14,4 @@ Week 4 Assignment4b webpage:
 [HTML Webpage](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4b.html)
 
 Week 4 Assignment4b video:
-[HTML Webpage](ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4b-video.html)
+[HTML Webpage](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4b-video.html)
