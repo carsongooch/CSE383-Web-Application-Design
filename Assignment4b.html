@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Carson Gooch, cse383, Fall 2026, Week4 Assignment -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Week 4 Assignment 4b</title>
+<h1>Carson Gooch, Unique ID:11040483</h1>
+
+<form action="https://ceclnx01.cec.miamioh.edu/~campbest/cse383/f26/formSubmit2.php" method="POST">
+	<div>
+		<label for="uniqueid">Unique Id:</label>
+		<input type ="text" name="uniqueid" id="uniqueid" minLength="3" maxLength="10" pattern="[A-Za-z0-9]+" required>
+	</div>
+
+        <div>
+                <label for="first_name">First Name:</label>
+                <input type ="text" name="first_name" id="first_name" minLength="3" maxLength="20" pattern="[^\s]+">
+        </div>
+
+        <div>
+                <label for="hometown">Home Town:</label>
+                <input type ="text" name="hometown" id="hometown" minLength ="5" maxLength="30" pattern="[A-Za-z0-9'\-]+">
+        </div>
+
+	<div>
+		<label for="birthdate">Birthday:</label>
+		<input type ="date" name="birthdate" id="birthdate" required>
+	</div>
+
+        <div>
+                <label for="Shade">Shade you would want your car to have.:</label>
+                <input type ="color" name="Shade" id="Shade">
+        </div>
+
+        <div>
+                <label for="sportsLike">how much I like sports:</label>
+                <input type ="range" name="sportsLike" id="sportsLike" min="0" max="10">
+        </div>
+
+        <div>
+                <label for="university">University:</label>
+                <input type ="text" name="university" id="university" minLength="3" maxLength="20" value="Miami University" required>
+        </div>
+
+	<div>
+                <label for="dsb_room">DSB Room:</label>
+                <select name="dsb_room" id="dsb_room" multiple>
+                        <option value="DSB365">DSB365</option>
+                        <option value="DSB385">DSB385</option>
+                        <option value="DSB302">DSB302</option>
+                        <option value="DSB166">DSB166</option>
+                        <option value="DSB168">DSB168</option>
+                        <option value="DSB126">DSB126</option>
+			<option value="DSB128">DSB128</option>
+			<option value="NO Room">No Room</option>
+		</select>
+        </div>
+
+	<button>Submit</button>
+
+	<p></p>
+
+	<a href="https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4b-video.html">Link to Video</a>
+
+</form>
