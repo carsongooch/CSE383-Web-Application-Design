@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 300px;
+	text-align: right;
+}
+
+input {
+	text-align: left;
+}
+
+select {
+	text-align: left;
+}
