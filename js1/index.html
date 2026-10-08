@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weekly Savings Calculator</title>
+</head>
+<body>
+    <h1>Weekly Savings Calculator</h1>
+
+    <!-- Load input and calculations before displaying results. -->
+    <script src="savings.js"></script>
+
+    <p>
+        Weekly deposit:
+        <script>
+            document.write("$" + weeklyAmount.toFixed(2));
+        </script>
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Week</th>
+                <th>Total Saved</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script>
+                document.write(tableRows);
+            </script>
+        </tbody>
+    </table>
+
+    <p>
+        Final savings:
+        <script>
+            document.write("$" + totalSaved.toFixed(2));
+        </script>
+    </p>
+</body>
+</html>
