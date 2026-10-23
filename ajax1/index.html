@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<!-- Carson Gooch, cse383, Fall 2026, Week9 XMLHTTPRequest -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Status</title>
+    <script src="status.js" ></script>
+    <script src="form.js" ></script>
+    <style>
+   .label {
+      width: 150px;
+      display: inline-block;
+    }
+
+    body {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Server Status</h1>
+    <div id='status'>
+
+      <p>
+      <span class="label">
+        Client IP:
+      </span>
+      <span id="clientIp">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        1 Minute Load:
+      </span>
+      <span id="load1">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        5 Minute Load:
+      </span>
+      <span id="load5">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        15 Minute Load:
+      </span>
+      <span id="load15">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        Logged In Users:
+      </span>
+      <span id="numUsers">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        TCP Connections:
+      </span>
+      <span id="numTcpConnections">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        Transmitted Bytes:
+      </span>
+      <span id="txBytes">Loading...</span>
+      </p>
+
+      <p>
+      <span class="label">
+        Received Bytes:
+      </span>
+      <span id="rxBytes">Loading...</span>
+      </p>
+      
+      <p>
+      <span class="label">
+      Location Record:</span>
+      <span id="locationRecord1">Loading...</span>
+      </p><p>
+      <span class="label">
+      Location Record:</span>      
+      <span id="locationRecord2">Loading...</span>     
+      <p></p>
+      <span class="label">
+      Location Record:</span>      
+      <span id="locationRecord3">Loading...</span>
+      <p></p>      
+      <span class="label">
+      Location Record:</span>      
+      <span id="locationRecord4">Loading...</span>
+      <p></p>      
+      <span class="label">
+      Location Record:</span>      
+      <span id="locationRecord5">Loading...</span>
+      </p>
+      
+
+      <p>
+      <span class="label">
+        Last Updated:
+      </span>
+      <span id="lastUpdated">Never</span>
+      </p>
+    </div>
+
+    <form onsubmit="sendTransfer(event)">
+
+	<h2>Send your location information</h2>
+
+        <p>
+            <label for="Location">Your current location:</label>
+            <input type="text"
+                   id="Location"
+                   >
+        </p>
+	
+	<p>
+            <label for="computer">Computer:</label>
+
+	    <select id="computer" name="computer">
+		<option value ="personal-laptop">personal-laptop</option>
+		<option value ="personal-desktop">personal-desktop</option>
+		<option value ="mobile device">mobile device</option>
+		<option value ="school desktop">school desktop</option>
+		<option value ="other">other</option>
+	    </select>
+	</p>
+
+	<button type="submit">
+            Submit
+        </button>
+	</form>
+	
+	<p></p>
+   	<button id='toggleError' onclick="toggleError()">Turn Errors On</button>
+
+  </body>
+</html>
