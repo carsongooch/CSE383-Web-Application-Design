@@ -1,0 +1,165 @@
+<!-- Carson Gooch, cse383, Fall 2026, Ajax2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AJAX Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="weather.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="menu">Menu</div>
+      <div class="lab_name">AJAX Lab</div>
+      <nav  class="menu">
+        <button data-page="weather">Weather</button>	
+        <button data-page="earthquakes">Earthquakes</button>
+        <button data-page="location">Location</button>
+      </nav>
+    </header>
+
+    <main id="main" class="main-content">
+      <section id="welcome" class="page" >
+        <div >
+          <div >
+            <p >CSE383 · AJAX LAB 2</p>
+            <h1 >Explore real data.<br><em>One request at a time.</em></h1>
+            <p>Practice asynchronous JavaScript using <code>XMLHttpRequest</code>. Check weather by ZIP code, explore significant earthquakes, and submit your own location record—all without reloading the page.</p>
+          </div>
+          <img src="welcome.svg" width="100" alt="Illustration of a globe with weather, seismic, and location symbols">
+        </div>
+      </section>
+
+      <section id="weather" class="page" style="display:none" >
+        <div class="section-heading"><div><p>LIVE CONDITIONS</p><h1 id="weather-heading">Weather lookup</h1><p>Enter a five-digit U.S. ZIP code to retrieve local conditions.</p></div></div>
+        <form id="weather-form" class="input-card">
+          <label for="zipcode">ZIP code</label>
+          <div class="form-row"><input id="zipcode" name="zipcode" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="e.g. 45056" value="45056" required><button class="primary" type="submit">Get weather</button></div>
+        </form>
+        <div id="weather-status" class="status" role="status" ></div>
+        <div id="weather-results" hidden>
+          <div class="results-heading"><h2 id="weather-place">Conditions</h2><p id="weather-retrieved"></p></div>
+          <div >
+            <div><span>ZIP code: </span><strong id="weather-zip">—</strong></div>
+            <div ><span>Temperature: </span><strong id="weather-temp">—</strong></div>
+            <div ><span>Wind speed: </span><strong id="weather-wind">—</strong></div>
+            <div ><span>Wind direction: </span><strong id="weather-direction">—</strong></div>
+            <div ><span>Visibility: </span><strong id="weather-visibility">—</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="earthquakes" class="page" style="display:none" >
+        <div class="section-heading"><div><p >USGS LIVE FEED</p><h1 id="quakes-heading">Significant earthquakes</h1><p>Up to five significant earthquakes recorded in the last 30 days.</p></div></div>
+        <div id="quake-status" class="status" role="status" ></div>
+        <div id="quake-list" class="quake-list">
+		<div id="quake1" class="quake_card" hidden>
+			<h2 id="quake-title1"></h2>
+			<p id ="quake-location1"></p>
+			<p id ="quake-magnitude1"></p>
+			<p id ="quake-time1"></p>
+			<a id ="quake-link1" target="_blank"></a>
+		</div>
+                <div id="quake2" class="quake_card" hidden>
+                        <h2 id="quake-title2"></h2>
+                        <p id ="quake-location2"></p>
+                        <p id ="quake-magnitude2"></p>
+                        <p id ="quake-time2"></p>
+                        <a id ="quake-link2" target="_blank"></a>
+                </div>
+
+                <div id="quake3" class="quake_card" hidden>
+                        <h2 id="quake-title3"></h2>
+                        <p id ="quake-location3"></p>
+                        <p id ="quake-magnitude3"></p>
+                        <p id ="quake-time3"></p>
+                        <a id ="quake-link3" target="_blank"></a>
+                </div>
+
+                <div id="quake4" class="quake_card" hidden>
+                        <h2 id="quake-title4"></h2>
+                        <p id ="quake-location4"></p>
+                        <p id ="quake-magnitude4"></p>
+                        <p id ="quake-time4"></p>
+                        <a id ="quake-link4" target="_blank"></a>
+                </div>
+
+                <div id="quake5" class="quake_card" hidden>
+                        <h2 id="quake-title5"></h2>
+                        <p id ="quake-location5"></p>
+                        <p id ="quake-magnitude5"></p>
+                        <p id ="quake-time5"></p>
+                        <a id ="quake-link5" target="_blank"></a>
+                </div>
+
+	</div> 
+        <div class="actions"><button id="refresh-quakes" class="primary" type="button">↻ Refresh earthquakes</button></div>
+        <p class="source-note">Source: U.S. Geological Survey GeoJSON feed. The significant category is determined by USGS.</p>
+      </section>
+
+      <section id="location" class="page" style="display:none" >
+        <div class="section-heading"><div><p class="eyebrow">CAMPUS API</p><h1 id="location-heading">Submit a location</h1><p>Update Location Record and display</p></div></div>
+        <form id="location-form" class="input-card form-stack">
+          <div><label for="location-name">Location</label><input id="location-name" name="location" type="text" placeholder="e.g. Office" maxlength="150" required></div>
+          <div><label for="computer">Computer</label><input id="computer" name="computer" type="text" placeholder="e.g. laptop" maxlength="150" required></div>
+          <button class="primary" type="submit">Submit location</button>
+        </form>
+        <div id="location-status" class="status" role="status" ></div>
+        <div id="location-results" hidden>
+          <div class="results-heading"><h2>Submission results</h2><p id="location-summary"></p></div>
+          <div class="table-scroll"><table><thead><tr><th>User ID</th><th>Location</th><th>Computer</th><th>Client IP</th><th>Time</th></tr></thead>
+	  <tbody id="location-rows">
+		<tr id="location-row1" hidden>
+			<td id="location-uid1"></td>
+			<td id="location-value1"></td>
+			<td id="location-computer1"></td>
+			<td id="location-ip1"></td>
+			<td id="location-time1"></td>
+		</tr>
+
+                <tr id="location-row2" hidden>
+                        <td id="location-uid2"></td>
+                        <td id="location-value2"></td>
+                        <td id="location-computer2"></td>
+                        <td id="location-ip2"></td>
+                        <td id="location-time2"></td>
+                </tr>
+
+                <tr id="location-row3" hidden>
+                        <td id="location-uid3"></td>
+                        <td id="location-value3"></td>
+                        <td id="location-computer3"></td>
+                        <td id="location-ip3"></td>
+                        <td id="location-time3"></td>
+                </tr>
+
+                <tr id="location-row4" hidden>
+                        <td id="location-uid4"></td>
+                        <td id="location-value4"></td>
+                        <td id="location-computer4"></td>
+                        <td id="location-ip4"></td>
+                        <td id="location-time4"></td>
+                </tr>
+
+                <tr id="location-row5" hidden>
+                        <td id="location-uid5"></td>
+                        <td id="location-value5"></td>
+                        <td id="location-computer5"></td>
+                        <td id="location-ip5"></td>
+                        <td id="location-time5"></td>
+                </tr>
+	</tbody></table></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Carson Gooch · CSE383 · 2026</span>
+      goochcj@miamioh.edu
+    </footer>
+  </div>
+</body>
+</html>
