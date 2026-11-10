@@ -1,3 +1,7 @@
+/* CSE383 REST API Lab
+*Carson Gooch, cse383, Fall 2026, Week11 Create REST API
+*/
+
 <?php
 
 $redis = new Redis();

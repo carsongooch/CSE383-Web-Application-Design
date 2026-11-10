@@ -1,3 +1,8 @@
+#CSE383 AJAX Lab 2
+#Carson Gooch, cse383, Fall 2026, Week9 XMLHTTPRequest
+
+
+
 #!/bin/bash
 
 curl -sS https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/rest1/rest.php/color
