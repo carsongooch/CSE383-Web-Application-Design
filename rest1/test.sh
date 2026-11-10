@@ -1,5 +1,5 @@
-#CSE383 AJAX Lab 2
-#Carson Gooch, cse383, Fall 2026, Week9 XMLHTTPRequest
+#CSE383 REST API Lab
+#Carson Gooch, cse383, Fall 2026, Week11 Create Rest API
 
 
 
