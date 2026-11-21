@@ -7,9 +7,28 @@ Assignment -> Week2 Second Class -> HTML
 [button.html](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/button.html)
 [Colors.html](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/clock.html)
 
+*Assignment desc*
+
 ---------------------------------------------------------------------------------------
 
 Assignment In Class Javascript Week 7
 [Javascript Week 7](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/js1/)
 
+*Assignment desc*
+
 ---------------------------------------------------------------------------------------
+
+Lab -> XMLHTTPRequest
+[XML HTTP Request](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/js1)
+
+*Assignment desc*
+
+---------------------------------------------------------------------------------------
+
+Lab -> XMLHTTPRequest
+[AJAX Lab](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax2/index.html)
+
+*Assignment desc*
+
+---------------------------------------------------------------------------------------
+
