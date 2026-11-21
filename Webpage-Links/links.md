@@ -19,8 +19,15 @@ Assignment -> Week 4b
 
 ---------------------------------------------------------------------------------------
 
-Assignment In Class Javascript Week 7
+Javascript Week 7
 [Javascript Week 7](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/js1/)
+
+*Assignment desc*
+
+---------------------------------------------------------------------------------------
+
+Create HTML and JWT for REST API
+[REST API](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/rest1/index.php)
 
 *Assignment desc*
 
