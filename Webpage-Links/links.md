@@ -34,7 +34,7 @@ Create HTML and JWT for REST API
 ---------------------------------------------------------------------------------------
 
 Lab -> XMLHTTPRequest
-[XML HTTP Request](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/js1)
+[XML HTTP Request](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax1/index.html?computer=personal-desktop)
 
 *Assignment desc*
 
