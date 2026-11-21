@@ -4,7 +4,7 @@
 
 const LOCATION_API = "https://ceclnx01.cec.miamioh.edu/~campbest/cse383/api/location.php";
 const QUAKE_API = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson";
-const OPENWEATHER = "c2a826fa57fc7d8ac3ed71d8b5f20921"
+const OPENWEATHER = "OPEN_WEATHER_KEY"
 
 function showPage(name) {
   console.log("Name = " + name)
