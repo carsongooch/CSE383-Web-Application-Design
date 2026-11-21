@@ -9,3 +9,5 @@ The repository is organized by Assignments, Labs, and a separate index of deploy
 ## Coursework
 
 ### HTML, CSS, and Javascript
+
+- Built webpages using HTML and CSS, including images, video, and interactive forms.
