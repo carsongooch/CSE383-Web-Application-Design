@@ -11,6 +11,14 @@ Assignment -> Week2 Second Class -> HTML
 
 ---------------------------------------------------------------------------------------
 
+Assignment -> Week 4b
+
+[Week 4b Assignment](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4b.html)
+
+*Assignment desc*
+
+---------------------------------------------------------------------------------------
+
 Assignment In Class Javascript Week 7
 [Javascript Week 7](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/js1/)
 
@@ -25,7 +33,7 @@ Lab -> XMLHTTPRequest
 
 ---------------------------------------------------------------------------------------
 
-Lab -> XMLHTTPRequest
+Lab -> Ajax2
 [AJAX Lab](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax2/index.html)
 
 *Assignment desc*
