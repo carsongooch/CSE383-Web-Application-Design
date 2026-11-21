@@ -31,6 +31,8 @@ Create HTML and JWT for REST API
 
 *Assignment desc*
 
+does not work for people as of the moment have to log into CAS
+
 ---------------------------------------------------------------------------------------
 
 Lab -> XMLHTTPRequest
