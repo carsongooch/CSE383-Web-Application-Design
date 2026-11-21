@@ -4,4 +4,4 @@ This repository contains assignments and labs completed for CSE 383 at Miami Uni
 
 The repository is organized by Assignments, Labs, and a separate index of deployed pages and API demonstrations.
 
-[https://github.com/carsongooch/CSE-383/blob/main/Webpage-Links/links.md](View the deployed webpages and API demonstrations here)
+[View the deployed webpages and API demonstrations here)](https://github.com/carsongooch/CSE-383/blob/main/Webpage-Links/links.md)
