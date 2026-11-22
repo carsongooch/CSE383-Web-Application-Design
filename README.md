@@ -50,7 +50,7 @@ The repository is organized by Assignments, Labs, and a separate index of deploy
 
 ### Viewing and Running the Work
 
-Use the [Webpage Links)](https://github.com/carsongooch/CSE-383/blob/main/Webpage-Links/links.md) file to access the hosted versions of the assignments, labs, and API demonstrations.
+Use the [Webpage Links](https://github.com/carsongooch/CSE-383/blob/main/Webpage-Links/links.md) file to access the hosted versions of the assignments, labs, and API demonstrations.
 
 *Note*: Some projects depend on Miami University services, PHP configuration, or external API credentials. Projects such as these may not run by opening the HTML files locally, and hosted webpages may change or become unavailable over time.
  
