@@ -4,7 +4,7 @@ This repository contains assignments and labs completed for CSE 383 at Miami Uni
 
 The repository is organized by Assignments, Labs, and a separate index of deployed pages and API demonstrations.
 
-[View the deployed webpages and API demonstrations here)](https://github.com/carsongooch/CSE-383/blob/main/Webpage-Links/links.md)
+[View the deployed webpages and API demonstrations here)](https://github.com/carsongooch/CSE-383/blob/main/Webpage-Links/links.md
 
 ## Coursework
 
@@ -25,8 +25,8 @@ The repository is organized by Assignments, Labs, and a separate index of deploy
 - Created AJAX dashboard with three data views
 
   - **Weather**: Retrieves current weather conditions from OpenWeather API using a U.S. ZIP code.
-  - **Earthquakes**: Retrives significant earthquake information from the USGS GeoJSON feed.
-  - **Location**: Submits location and computer information to a Miami university course API and displays returned records
+  - **Earthquakes**: Retrieves significant earthquake information from the USGS GeoJSON feed.
+  - **Location**: Submits location and computer information to a Miami University course API and displays returned records
 
 ### PHP, Authentication, and REST APIs
 
