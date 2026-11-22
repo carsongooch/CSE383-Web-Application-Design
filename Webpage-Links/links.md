@@ -7,7 +7,7 @@ Assignment -> Week2 Second Class -> HTML
 [button.html](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/button.html)
 [Colors.html](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/colors.html)
 
-These webpages demonstrate fundamental HTML, CSS and JavaScript concepts 
+These webpages demonstrate fundamental HTML, CSS and JavaScript concepts. The projects here include an interactive analog clock built with Canvas API, a button-based demonstration of JavaScript event handling, and a restaurant review webpage demonstrating HTML and CSS structure
 
 ---------------------------------------------------------------------------------------
 
@@ -15,37 +15,37 @@ Assignment -> Week 4b
 
 [Week 4b Assignment](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/Assignment4b.html)
 
-*Assignment desc*
+This webpage demonstrates a styled HTML form featuring multiple input types and multi select options. Implemented built-in HTML form validation and submitted user information to a PHP endpoint.
 
 ---------------------------------------------------------------------------------------
 
 Javascript Week 7
 [Javascript Week 7](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/js1/)
 
-*Assignment desc*
+Developed a weekly savings calculator using JavaScript prompts, conditional statements, and loops. The program calculates accumulated savings over a user-selected number of weeks and dynamically generates a results table. This program also tracks progress towards a $100 savings goal.
 
 ---------------------------------------------------------------------------------------
 
 Create HTML and JWT for REST API
 [REST API](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/rest1/index.php)
 
-*Assignment desc*
+Developed a PHP REST API backed by Redis for storing and retrieving application data. Implemented endpoints for managing color preferences, book, records, and random-number generation. 
 
-does not work for people as of the moment have to log into CAS
+*NOTE*: The link above will not work as it needs 
 
 ---------------------------------------------------------------------------------------
 
 Lab -> XMLHTTPRequest
 [XML HTTP Request](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax1/index.html?computer=personal-desktop)
 
-*Assignment desc*
+Built a server-status webpage using XMLHttpRequest requests to retrieve and display live server information. The webpage automatically refreshes every five seconds and displays server metric, network activity, and existing location records. This program also accepts a form that the submits user location and computer information to a course APIU using a POST request.
 
 ---------------------------------------------------------------------------------------
 
 Lab -> Ajax2
 [AJAX Lab](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax2/index.html)
 
-*Assignment desc*
+Developed an interactive AJAX dashboard with three separate views: weather, earthquakes, and location records. Integrated the OpenWeather API and USGS EarthQuake GeoJSON feed to retrieve external data, while also implementing POST requests to submit location information to a Miami University API. All of these requests are handled asynchronously without having the webpage reload. 
 
 ---------------------------------------------------------------------------------------
 
