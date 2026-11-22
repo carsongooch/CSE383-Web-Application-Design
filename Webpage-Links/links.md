@@ -7,7 +7,7 @@ Assignment -> Week2 Second Class -> HTML
 [button.html](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/button.html)
 [Colors.html](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/colors.html)
 
-*Assignment desc*
+These webpages demonstrate fundamental HTML, CSS and JavaScript concepts 
 
 ---------------------------------------------------------------------------------------
 
