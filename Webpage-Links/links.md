@@ -33,7 +33,7 @@ Developed a PHP REST API backed by Redis for storing and retrieving application 
 
 *NOTE*: The link above will not work as it needs Miami University Central Authentication Service (CAS) to login. The link below does not require CAS
 
-[REST API](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/rest1/index.php)
+[REST API](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/backup/index.php)
 
 ---------------------------------------------------------------------------------------
 
