@@ -31,7 +31,9 @@ Create HTML and JWT for REST API
 
 Developed a PHP REST API backed by Redis for storing and retrieving application data. Implemented endpoints for managing color preferences, book, records, and random-number generation. 
 
-*NOTE*: The link above will not work as it needs 
+*NOTE*: The link above will not work as it needs Miami University Central Authentication Service (CAS) to login. The link below does not require CAS
+
+[REST API](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/cse383_W2/rest1/index.php)
 
 ---------------------------------------------------------------------------------------
 
