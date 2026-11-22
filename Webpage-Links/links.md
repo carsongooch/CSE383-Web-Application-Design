@@ -1,4 +1,4 @@
-This text file contains all webpage links to Projects/Labs in this Repositroy
+This text file contains all webpage links to Projects/Labs in this Repository
 
 ---------------------------------------------------------------------------------------
 Assignment -> Week2 Second Class -> HTML
@@ -38,14 +38,14 @@ Developed a PHP REST API backed by Redis for storing and retrieving application 
 Lab -> XMLHTTPRequest
 [XML HTTP Request](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax1/index.html?computer=personal-desktop)
 
-Built a server-status webpage using XMLHttpRequest requests to retrieve and display live server information. The webpage automatically refreshes every five seconds and displays server metric, network activity, and existing location records. This program also accepts a form that the submits user location and computer information to a course APIU using a POST request.
+Built a server-status webpage using XMLHttpRequest requests to retrieve and display live server information. The webpage automatically refreshes every five seconds and displays server metrics, network activity, and existing location records. This program also accepts a form that the submits user location and computer information to a course API using a POST request.
 
 ---------------------------------------------------------------------------------------
 
 Lab -> Ajax2
 [AJAX Lab](https://ceclnx01.cec.miamioh.edu/~goochcj/cse383/ajax2/index.html)
 
-Developed an interactive AJAX dashboard with three separate views: weather, earthquakes, and location records. Integrated the OpenWeather API and USGS EarthQuake GeoJSON feed to retrieve external data, while also implementing POST requests to submit location information to a Miami University API. All of these requests are handled asynchronously without having the webpage reload. 
+Developed an interactive AJAX dashboard with three separate views: weather, Earthquakes, and location records. Integrated the OpenWeather API and USGS Earthquake GeoJSON feed to retrieve external data, while also implementing POST requests to submit location information to a Miami University API. All of these requests are handled asynchronously without having the webpage reload. 
 
 ---------------------------------------------------------------------------------------
 
